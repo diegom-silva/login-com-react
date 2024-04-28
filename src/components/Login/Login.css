@@ -1,0 +1,92 @@
+.container {
+  width: 28.125rem;
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(0.625rem);
+  border: 0.125rem solid rgba(255, 255, 255, 0.2);
+  padding: 2.5rem;
+}
+
+.container h1 {
+  text-align: center;
+  font-size: 1.875rem;
+  color: white;
+}
+
+.container .input-field {
+  position: relative;
+  width: 100%;
+  height: 3.125rem;
+  margin: 1.875rem auto;
+}
+
+.input-field input {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  outline: none;
+  border: 0.125rem solid rgba(255, 255, 255, 0.2);
+  border-radius: 2.5rem;
+  font-size: 1rem;
+  color: white;
+  padding: 1.25rem 1.5625rem;
+}
+
+.input-field input::placeholder {
+  color: white;
+}
+
+.input-field .icon {
+  position: absolute;
+  right: 1.5625rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.125rem;
+  color: white;
+}
+
+.container .recall-forget {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9063rem;
+  margin: -0.9375rem 0 0.9375rem;
+}
+
+.recall-forget label {
+  color: white;
+}
+
+.recall-forget input {
+  margin-right: 0.3125rem;
+}
+
+.recall-forget a,
+.signup-link p a {
+  color: white;
+  text-decoration: none;
+}
+
+.recall-forget a:hover,
+.signup-link p a:hover {
+  text-decoration: underline;
+}
+
+.container button {
+  width: 100%;
+  height: 3.125rem;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 2.5rem;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  text-shadow: none;
+}
+
+.container .signup-link {
+  font-size: 0.9375rem;
+  text-align: center;
+  margin-top: 20px;
+  text-shadow: none;
+}
